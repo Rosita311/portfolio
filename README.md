@@ -23,7 +23,7 @@ Build a website with HTML and CSS an a bit of Javascript. For the JS part I am t
 
 The website wil contain:
 * a header with My name in it , a menu with links to various parts of my portfolio.
-* a main section with information about me, a picture of me, a list with projects I have done, My skills and anguages.
+* a main section with information about me, a picture of me, a list with projects I have done, My skills and languages.
 * a small footer
 * a simple contact page
 
