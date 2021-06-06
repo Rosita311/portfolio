@@ -1,6 +1,6 @@
 # Portfolio website 
 
-I am Rosita, a Front-Enddeveloper from the Netherlands and currently learning the [Front-End Engineer Career Path on Codecademy.com](https://www.codecademy.com/learn/paths/front-end-engineer-career-path). I am learning to code every single day. as I am writing this, its day: 451.
+I am Rosita, a Front-Enddeveloper from the Netherlands and currently learning the [Front-End Engineer Career Path on Codecademy.com](https://www.codecademy.com/learn/paths/front-end-engineer-career-path). I am learning to code every single day. as I am writing this, is day: 451.
 
 In this README file I am keeping track of the progress of building this website. I am building this portfolio because it's good to have place where you can show your skills and this is also [a project from Codecademy](https://www.codecademy.com/paths/front-end-engineer-career-path/tracks/fecp-html-css-and-js-portfolio-project/modules/fecp-personal-portfolio-website/kanban_projects/portfolio-website)
 
