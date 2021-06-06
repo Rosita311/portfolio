@@ -71,6 +71,8 @@ I would like to use Adobe XD to Wireframe my website. If this does not work, i'l
 
 ### Make it interactive
 
+### Make it responsive
+
 ### Publish to the web
 
 ### Next Steps
