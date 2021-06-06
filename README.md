@@ -57,7 +57,7 @@ For me this is the hardest to do, because I am not well at planning. I am going 
 Except for this stem. Today I have written down my plans in this README file and created a repository on [GitHub](https://github.com/Rosita311/portfolio) , so that I can keep all the info on GitHub.
 
 ### Wireframe your website (start 7/6/2021)
-I would like to use Adobe XD to Wireframe my website. If this does not work, i'll use paper and a pencil. I am reading and using a [Toturial about Adobe XD](https://www.adobe.com/products/xd/learn/design/productivity/how-to-wireframe-xd.html) to learn more about Adobe XD and make the Wireframe. 
+I would like to use Adobe XD to Wireframe my website. If this does not work, i'll use paper and a pencil. I am reading and using a [Tutorial about Adobe XD](https://www.adobe.com/products/xd/learn/design/productivity/how-to-wireframe-xd.html) to learn more about Adobe XD and make the wireframe. 
 
 ### Create files and deploy it Locally (start 14/6/2021)
 
