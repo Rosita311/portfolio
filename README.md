@@ -35,7 +35,7 @@ For the layout I'll use the same layout as Codecademy's sample project for now.
 ### Fonts (Google Fonts):
 * Title: Architects Daughter
 * Heading: Source Code Pro (Semi-bold 600)
-* Body: Poppins
+* Body: Poppins (Regular 400)
 
 ### Colors:
 * Main backgroundcolor: #ffffff: White
