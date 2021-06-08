@@ -68,20 +68,22 @@ I made a somewhat fancy Wireframe in Adobe XD. It's not a perfect Wireframe but 
 
 ![Contact.html](images/contact.jpg)
 
-### Create files and deploy it Locally (start 14/6/2021)
+### Create files and deploy it Locally (start 8/6/2021)
+After I made the Wireframes, I created 2 HTML files, 1 CSS file and a JS file (using Git). I'll add images for my portfolio sometime later. 
 
-### Version control (Start 21/6/2021)
+### Version control (Start 8/6/2021)
+I imediately pushed everything to GitHub. It's not the first time i have lost my code somehow. On GitHub it's save. Now I am ready for the fun part! 
 
-### Build the Home Page (start 28/6/2021)
+### Build the Home Page (start 9/6/2021)
 
-### Build the Contact Page
+### Build the Contact Page (start 14/6/2021)
 
-### Style the content
+### Style the content (start 14/6/2021)
 
-### Make it interactive
+### Make it interactive (start 21/6/2021)
 
-### Make it responsive
+### Make it responsive (start 28/6/2021)
 
-### Publish to the web
+### Publish to the web (start 5/7/2021)
 
-### Next Steps
+### Next Steps (start 5/7/2021)
