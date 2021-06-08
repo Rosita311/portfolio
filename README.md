@@ -47,6 +47,7 @@ For the layout I'll use the same layout as Codecademy's sample project for now.
 ### Fontsizes:
 * Title(H1): 50px
 * H2: 40px
+* H3 30px
 * Body: 20px
 
 I'll use Icons from Font Awesome.
@@ -60,6 +61,12 @@ Except for this stem. Today I have written down my plans in this README file and
 I would like to use Adobe XD to Wireframe my website. If this does not work, i'll use paper and a pencil. I am reading and using a [Tutorial about Adobe XD](https://www.adobe.com/products/xd/learn/design/productivity/how-to-wireframe-xd.html) to learn more about Adobe XD and make the wireframe. 
 
 I made a Wireframe in Adobe XD, but I still don't know how it works. Elements I made are suddenly removed or there are duplicate elements, but it's pretty hard. I made a wireframe for the homepage. it's almost finished and after that, I'll make one for the contactpage. If it doesn't work out, I'll use pen and paper. 
+
+I made a somewhat fancy Wireframe in Adobe XD. It's not a perfect Wireframe but it does the job. The images are too large, but that's ok. 
+
+![Index.html](images/index.jpg)
+
+![Contact.html](images/contact.jpg)
 
 ### Create files and deploy it Locally (start 14/6/2021)
 
