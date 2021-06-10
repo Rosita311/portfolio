@@ -78,7 +78,7 @@ I imediately pushed everything to GitHub. It's not the first time i have lost my
 Today I built the homepage in HTML. I also added pictures of all the projects, Icons, Font Awesome CDN and Google Fonts CDN.
 
 ### Build the Contact Page (start 10/6/2021)
-I made the contactpage. This I copied the header, the footer and one section from the homepage and I changed the content. This the first time I am building a website with more than one page. 
+I made the contactpage. I copied the header, the footer and one section from the homepage and I changed the content. This is the first time I am building a website with more than one page. 
 
 ### Style the content (start 11/6/2021)
 
