@@ -75,16 +75,17 @@ After I made the Wireframes, I created 2 HTML files, 1 CSS file and a JS file (u
 I imediately pushed everything to GitHub. It's not the first time i have lost my code somehow. On GitHub it's save. Now I am ready for the fun part! 
 
 ### Build the Home Page (start 9/6/2021)
-Today I build the homepage in HTML. I also added pictures of all the projects, Icons, Font Awesome CDN and Google Font CDN.
+Today I built the homepage in HTML. I also added pictures of all the projects, Icons, Font Awesome CDN and Google Fonts CDN.
 
 ### Build the Contact Page (start 10/6/2021)
+I made the contactpage. This I copied the header, the footer and one section from the homepage and I changed the content. This the first time I am building a website with more than one page. 
 
-### Style the content (start 14/6/2021)
+### Style the content (start 11/6/2021)
 
-### Make it interactive (start 21/6/2021)
+### Make it interactive (start 14/6/2021)
 
-### Make it responsive (start 28/6/2021)
+### Make it responsive (start 21/6/2021)
 
-### Publish to the web (start 5/7/2021)
+### Publish to the web (start 28/6/2021)
 
-### Next Steps (start 5/7/2021)
+### Next Steps (start 28/6/2021)
