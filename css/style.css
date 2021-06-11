@@ -1,3 +1,89 @@
-font-family: 'Architects Daughter', cursive;
-font-family: 'Poppins', sans-serif;
-font-family: 'Source Code Pro', monospace;
+/* Universal Styles */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    color: #1B2021;
+}
+
+h1 {
+    font-family: 'Architects Daughter', cursive; 
+}
+
+h2, h3 {
+    font-family: 'Source Code Pro', monospace;
+}
+
+a {
+    color: #1B2021;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Header */
+
+header {
+    display: flex;
+    height: 60px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #1B2021;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav li {
+    margin: 0 10px;
+    color: #1B2021;
+    font-size: 20px;
+}
+
+button {
+    background-color: #EA638C;
+    border: none;
+    padding: 7px 20px;
+    border-radius: 15px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #89023E;
+    color: #ffffff;
+}
+
+button a:hover {
+    color: #ffffff;
+}
+
+/* About/Contact section */
+#about, #contact {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+img {
+    width: 400px;
+}
+
+#contact ul {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 0;
+}
+
+#contact ul li {
+    list-style: none;
+    margin-right: 20px;
+}
+
+#contact i {
+    font-size: 30px;
+}
+
