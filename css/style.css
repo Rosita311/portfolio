@@ -3,7 +3,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
-    max-width: 1200px;
+    /* max-width: 1200px; */
     margin: 0 auto;
     color: #1B2021;
 }
@@ -94,13 +94,29 @@ img {
     flex-wrap: wrap;
     width: 100%;
   }
-
+  
   .column {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     flex-basis: 100%;
     flex: 1;
-    border: 1px solid green;
   }
+
+.project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid green;
+}
+
+.project-image {
+    border: 1px solid red;
+    
+}
+
+.project-info {
+    font-size: 18px;
+    border: 1px solid blue;
+}
 
 
