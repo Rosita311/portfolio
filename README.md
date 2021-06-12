@@ -81,6 +81,11 @@ Today I built the homepage in HTML. I also added pictures of all the projects, I
 I made the contactpage. I copied the header, the footer and one section from the homepage and I changed the content. This is the first time I am building a website with more than one page. 
 
 ### Style the content (start 11/6/2021)
+Styling two pages with one css file is harder than I thought. The first section on the homepage has the same layout as the contact page and still the picture won't move next to the text. 
+
+And I messed up the columns for the projects section. [Now I have found something that should work.](https://dev.to/drews256/ridiculously-easy-row-and-column-layouts-with-flexbox-1k01)
+
+And all the tags and curly brackets in VS code are confusing me. I can't keep them apart anymore. 
 
 ### Make it interactive (start 14/6/2021)
 

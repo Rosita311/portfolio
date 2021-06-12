@@ -87,3 +87,20 @@ img {
     font-size: 30px;
 }
 
+/* Project section */
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .column {
+    display: flex;
+    flex-direction: column; 
+    flex-basis: 100%;
+    flex: 1;
+    border: 1px solid green;
+  }
+
+
