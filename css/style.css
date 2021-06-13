@@ -105,16 +105,21 @@ img {
 .project {
     display: inline-flex; 
     border: 1px solid green;
+    width: 598px;
+    height: 360px;;
 }
 
 .project-image {
     border: 1px solid red;
-    width: 300px;
+    object-fit: cover;
+    width: 66%;
 }
 
 .project-info {
-    font-size: 16px;
+    font-size: 15px;
     border: 1px solid blue;
+    width: 33%;
+    padding: 20px;
 }
 
 
