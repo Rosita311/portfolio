@@ -3,7 +3,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
-    max-width: 1200px;   
+    max-width: 1200px;  
     margin: 0 auto;
     color: #1B2021;
 }
@@ -65,7 +65,7 @@ button a:hover {
 #about, #contact {
     display: flex;
     justify-content: space-between;
-    margin: 50px 0;
+    margin: 100px 0;
 }
 
 .intro {
@@ -79,6 +79,7 @@ button a:hover {
  #about img {
     width: 33%;
     margin-right: 10px;
+    box-shadow: 6px 8px 6px -6px rgba(0, 0, 0, 0.4);
 }
 
 #contact ul {
@@ -97,8 +98,16 @@ button a:hover {
 }
 
 /* Project section */
-#projects h2 {
+#projects, #Skills {
+    margin: 100px 0;
+}
+
+#projects h2, #skills h2 {
     text-align: center;
+}
+
+#projects p {
+    margin-left: 10px;
 }
 .row {
     display: flex;
@@ -147,4 +156,32 @@ button a:hover {
     font-size: 14px;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
+}
+
+/* Skills section */
+#skills ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+#skills li {
+    margin: 0 15px;
+    color: #89023E;
+    font-size: 30px;
+}
+
+#skills li:hover {
+    color: #EA638C;
+}
+/* contactpage */
+
+/* footer */
+footer {
+    border-top: 1px solid #EA638C;
+    margin-top: 100px;
+}
+
+footer p {
+    text-align: center;
 }

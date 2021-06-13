@@ -85,7 +85,7 @@ Styling two pages with one css file is harder than I thought. The first section 
 
 And I messed up the columns for the projects section. [Now I have found something that should work.](https://dev.to/drews256/ridiculously-easy-row-and-column-layouts-with-flexbox-1k01)
 
-And all the tags and curly brackets in VS code are confusing me. I can't keep them apart anymore. 
+Two days later I finished the homepage! There's just one minor thing I'd like to have the borders in the header and the footer fullwidth, but I don't know yet how to do that.
 
 ### Make it interactive (start 14/6/2021)
 
