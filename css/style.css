@@ -48,7 +48,7 @@ button {
     background-color: #EA638C;
     border: none;
     padding: 7px 20px;
-    border-radius: 15px;
+    border-radius: 25px;
     font-size: 16px;
 }
 
@@ -64,12 +64,21 @@ button a:hover {
 /* About/Contact section */
 #about, #contact {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     margin: 50px 0;
 }
 
-img {
-    width: 400px;
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    margin-left: 10px;
+}
+
+ #about img {
+    width: 33%;
+    margin-right: 10px;
 }
 
 #contact ul {
@@ -88,6 +97,9 @@ img {
 }
 
 /* Project section */
+#projects h2 {
+    text-align: center;
+}
 .row {
     display: flex;
     flex-direction: row;
@@ -104,22 +116,35 @@ img {
 
 .project {
     display: inline-flex; 
-    border: 1px solid green;
-    width: 598px;
-    height: 360px;;
+    width: 578px;
+    height: 250px;
+    margin: 10px;
+    box-shadow: 6px 8px 6px -6px rgba(0, 0, 0, 0.4);
 }
 
 .project-image {
-    border: 1px solid red;
     object-fit: cover;
     width: 66%;
+    border: 1px solid #FFD9DA;
 }
 
 .project-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #FFD9DA;
     font-size: 15px;
-    border: 1px solid blue;
     width: 33%;
-    padding: 20px;
+    padding: 0 10px 10px 10px;
 }
 
+.project-info button {
+    padding: 8px;
+    width: 100%;
+}
 
+.project-info button a {
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
