@@ -87,7 +87,9 @@ And I messed up the columns for the projects section. [Now I have found somethin
 
 Two days later I finished the homepage! There's just one minor thing I'd like to have the borders in the header and the footer fullwidth, but I don't know yet how to do that.
 
-### Make it interactive (start 14/6/2021)
+I also finished the contactpage. I'll add responsiveness later. 
+
+### Make it interactive (start 15/6/2021)
 
 ### Make it responsive (start 21/6/2021)
 

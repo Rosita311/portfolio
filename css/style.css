@@ -1,11 +1,13 @@
 /* Universal Styles */
 
-body {
+body { 
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
     max-width: 1200px;  
     margin: 0 auto;
     color: #1B2021;
+    /* background-color: #1B2021; */
+    /* color:#ffffff; */
 }
 
 h1 {
@@ -76,25 +78,10 @@ button a:hover {
     margin-left: 10px;
 }
 
- #about img {
+ #about img, #contact img {
     width: 33%;
     margin-right: 10px;
     box-shadow: 6px 8px 6px -6px rgba(0, 0, 0, 0.4);
-}
-
-#contact ul {
-    display: flex;
-    justify-content: flex-start;
-    padding-left: 0;
-}
-
-#contact ul li {
-    list-style: none;
-    margin-right: 20px;
-}
-
-#contact i {
-    font-size: 30px;
 }
 
 /* Project section */
@@ -174,14 +161,44 @@ button a:hover {
 #skills li:hover {
     color: #EA638C;
 }
+
 /* contactpage */
+
+#contact ul {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 0;
+}
+
+#contact ul li {
+    list-style: none;
+    margin-right: 20px;
+}
+
+#contact i {
+    font-size: 30px;
+    color: #89023E;
+}
+
+#contact i:hover {
+    color: #EA638C;
+}
 
 /* footer */
 footer {
     border-top: 1px solid #EA638C;
     margin-top: 100px;
+    bottom: 0;
 }
 
 footer p {
     text-align: center;
 }
+
+/* Darkmode */
+
+.darkmode {
+    background-color: #1B2021;
+    color:#ffffff;
+}
+
