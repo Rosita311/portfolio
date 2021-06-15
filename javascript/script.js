@@ -12,6 +12,6 @@ const numFormat = new Intl.NumberFormat("en-US");
 setInterval(() => {
     const currentDate = new Date();
     const difference = Math.floor(
-        (currentDate - startDate) / 1000 % 365);
+        (currentDate.getDate() - startDate.getDate()) / 1000);
         dayCounter.innerText = numFormat.format(difference);
 },);

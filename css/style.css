@@ -7,7 +7,8 @@ body {
     --accent-2: #AC024E;
     --accent-3: #FFD9DA;
     --button-info: #1B2021;
-    --counter-color: #AC024E;
+    --counter-color:var(--accent-2) ;
+    --nav-hover: var(--accent-2);
     --transition-delay: .3s linear;
 
     font-family: 'Poppins', sans-serif;
@@ -27,7 +28,8 @@ body.darkmode {
     --accent-2: #FFD9DA;
     --accent-3: #AC024E;
     --button-info: #1B2021;
-    --counter-color: #ED7D9F;
+    --counter-color: var(--accent-1);
+    --nav-hover: var(--accent-1);
     transition: var(--transition-delay);
 }
 
@@ -71,12 +73,12 @@ nav li {
 }
 
 nav li:hover {
-    color: var(--accent-1);
+    color: var(--nav-hover);
 }
 
 nav li a:hover {
-    color: var(--accent-1);
-    border-bottom: 4px solid var(--accent-1);
+    color: var(--nav-hover);
+    border-bottom: 4px solid var(--nav-hover);
     transition: var(--transition-delay);
 }
 
@@ -92,9 +94,6 @@ button a {
     color: var(--button-info);
 }
 
-button i {
-    color: var(--fontcolor);
-}
 
 button:hover {
     background-color: var(--accent-2);
