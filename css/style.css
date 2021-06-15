@@ -47,9 +47,13 @@ h2, h3 {
 }
 
 a {
-    color: var(--fontcolor);
+    color: var(--accent-2);
     text-decoration: none;
     font-weight: bold;
+}
+
+a:hover {
+    color: var(--accent-1);
 }
 
 /* Header */
@@ -73,6 +77,10 @@ nav li {
     color: var(--fontcolor);
     font-size: 20px;
     border-bottom: 3px solid var(--background-color);
+}
+
+nav li a {
+    color: var(--fontcolor);
 }
 
 nav li:hover {
