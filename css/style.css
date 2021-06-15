@@ -13,8 +13,6 @@ body {
 
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
-    max-width: 1200px;  
-    margin: 0 auto;
     background-color: var(--background-color);
     color: var(--fontcolor); 
 }
@@ -31,6 +29,11 @@ body.darkmode {
     --counter-color: var(--accent-1);
     --nav-hover: var(--accent-1);
     transition: var(--transition-delay);
+}
+
+header, main {
+    max-width: 1200px; 
+    margin: 0 auto;
 }
 
 h1 {

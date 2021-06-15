@@ -37,12 +37,12 @@ For the layout I'll use the same layout as Codecademy's sample project for now.
 ### Colors:
 * Main backgroundcolor: #ffffff: White
 * Accent color 1: #ED7D9F: Cyclamen
-* Accent color 2: #89023E: Claret
+* Accent color 2: #AC024E: Amaranth Purple
 * Main backgroundcolor darkmode: #1B2021: Eerie Black
 * Accent color 1 darkmode: #FFD9DA: Pale Pink
 * Accent color 2 darkmode: #30343F: Gunmetal
 
-![Color Palette](images/colors.jpg)
+![Color Palette](images/colorpallette.jpg)
 
 ### Fontsizes:
 * Title(H1): 50px
@@ -92,13 +92,6 @@ I also finished the contactpage. I'll add responsiveness later.
 ### Make it interactive (start 15/6/2021)
 I add the darkmode. with CSS variables and Javascript. I used this [tutorial](https://www.youtube.com/watch?v=RiWxhm5ZdFM&t=34s) for some explanation, but I really could understand what was told. 
 Adding the darkmode was pretty easy. So I added a counter too! That wasn't easy even with the example portfolio from Codecodemy. I was confused with the starting date. But I think it's fixed now. 
-
-
-Things to be fixed:
-* footer border
-* fotomatic image
-* links in header
-* responsiveniss
 
 ### Make it responsive (start 21/6/2021)
 
