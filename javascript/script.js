@@ -5,13 +5,14 @@ document.querySelector('.toggle-btn').addEventListener('click', () => {
 
 // Day counter
 const dayCounter = document.getElementById('counter');
-const start = '03-13-2020';
+const start = '2020-03-13';
 const startDate = new Date(start);
 const numFormat = new Intl.NumberFormat("en-US");
+const oneDay = 1000 * 60 * 60 * 24;
   
 setInterval(() => {
     const currentDate = new Date();
     const difference = Math.floor(
-        (currentDate.getDate() - startDate.getDate()) / 1000);
+        (currentDate.getTime() - startDate.getTime()) / oneDay + 1);
         dayCounter.innerText = numFormat.format(difference);
-},);
+});
