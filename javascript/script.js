@@ -13,6 +13,6 @@ const oneDay = 1000 * 60 * 60 * 24;
 setInterval(() => {
     const currentDate = new Date();
     const difference = Math.floor(
-        (currentDate.getTime() - startDate.getTime()) / oneDay + 1);
+        (currentDate.getTime() - startDate.getTime()) / oneDay );
         dayCounter.innerText = numFormat.format(difference);
 });
