@@ -1,25 +1,48 @@
 /* Universal Styles */
 
 body { 
+    --background-color: #ffffff;
+    --fontcolor: #1B2021;
+    --accent-1: #ED7D9F;
+    --accent-2: #AC024E;
+    --accent-3: #FFD9DA;
+    --button-info: #1B2021;
+    --counter-color: #AC024E;
+    --transition-delay: .3s linear;
+
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
     max-width: 1200px;  
     margin: 0 auto;
-    color: #1B2021;
-    /* background-color: #1B2021; */
-    /* color:#ffffff; */
+    background-color: var(--background-color);
+    color: var(--fontcolor); 
+}
+
+/* Darkmode */
+
+body.darkmode {
+    --background-color: #30343F;
+    --fontcolor: #ffffff;
+    --accent-1: #ED7D9F;
+    --accent-2: #FFD9DA;
+    --accent-3: #AC024E;
+    --button-info: #1B2021;
+    --counter-color: #ED7D9F;
+    transition: var(--transition-delay);
 }
 
 h1 {
     font-family: 'Architects Daughter', cursive; 
+    color: var(--fontcolor);
 }
 
 h2, h3 {
     font-family: 'Source Code Pro', monospace;
+    color: var(--fontcolor);
 }
 
 a {
-    color: #1B2021;
+    color: var(--fontcolor);
     text-decoration: none;
     font-weight: bold;
 }
@@ -32,7 +55,7 @@ header {
     width: 100%;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 2px solid #1B2021;
+    padding: 20px 0;
 }
 
 nav ul {
@@ -42,25 +65,44 @@ nav ul {
 
 nav li {
     margin: 0 10px;
-    color: #1B2021;
+    color: var(--fontcolor);
     font-size: 20px;
+    border-bottom: 3px solid var(--background-color);
+}
+
+nav li:hover {
+    color: var(--accent-1);
+}
+
+nav li a:hover {
+    color: var(--accent-1);
+    border-bottom: 4px solid var(--accent-1);
+    transition: var(--transition-delay);
 }
 
 button {
-    background-color: #EA638C;
+    background-color: var(--accent-1);
     border: none;
     padding: 7px 20px;
     border-radius: 25px;
     font-size: 16px;
 }
 
+button a {
+    color: var(--button-info);
+}
+
+button i {
+    color: var(--fontcolor);
+}
+
 button:hover {
-    background-color: #89023E;
+    background-color: var(--accent-2);
     color: #ffffff;
 }
 
-button a:hover {
-    color: #ffffff;
+button a:hover, button i:hover {
+    color: var(--background-color);
 }
 
 /* About/Contact section */
@@ -76,6 +118,11 @@ button a:hover {
     justify-content: center;
     width: 50%;
     margin-left: 10px;
+}
+
+#counter {
+    color: var(--counter-color);
+    font-weight: bold;
 }
 
  #about img, #contact img {
@@ -121,14 +168,14 @@ button a:hover {
 .project-image {
     object-fit: cover;
     width: 66%;
-    border: 1px solid #FFD9DA;
+    border: 1px solid var(--accent-3);
 }
 
 .project-info {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    background-color: #FFD9DA;
+    background-color: var(--accent-3);
     font-size: 15px;
     width: 33%;
     padding: 0 10px 10px 10px;
@@ -154,12 +201,12 @@ button a:hover {
 
 #skills li {
     margin: 0 15px;
-    color: #89023E;
+    color: var(--accent-2);
     font-size: 30px;
 }
 
 #skills li:hover {
-    color: #EA638C;
+    color: var(--accent-1);
 }
 
 /* contactpage */
@@ -177,16 +224,16 @@ button a:hover {
 
 #contact i {
     font-size: 30px;
-    color: #89023E;
+    color: var(--accent-2);
 }
 
 #contact i:hover {
-    color: #EA638C;
+    color: var(--accent-1);
 }
 
 /* footer */
 footer {
-    border-top: 1px solid #EA638C;
+    border-top: 1px solid var(--accent-1);
     margin-top: 100px;
     bottom: 0;
 }
@@ -194,11 +241,3 @@ footer {
 footer p {
     text-align: center;
 }
-
-/* Darkmode */
-
-.darkmode {
-    background-color: #1B2021;
-    color:#ffffff;
-}
-

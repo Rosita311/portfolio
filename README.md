@@ -36,7 +36,7 @@ For the layout I'll use the same layout as Codecademy's sample project for now.
 
 ### Colors:
 * Main backgroundcolor: #ffffff: White
-* Accent color 1: #EA638C: Blush
+* Accent color 1: #ED7D9F: Cyclamen
 * Accent color 2: #89023E: Claret
 * Main backgroundcolor darkmode: #1B2021: Eerie Black
 * Accent color 1 darkmode: #FFD9DA: Pale Pink
@@ -90,6 +90,14 @@ Two days later I finished the homepage! There's just one minor thing I'd like to
 I also finished the contactpage. I'll add responsiveness later. 
 
 ### Make it interactive (start 15/6/2021)
+I add the darkmode. with CSS variables and Javascript. I used this [tutorial] (https://www.youtube.com/watch?v=RiWxhm5ZdFM&t=34s) for some explanation, but I really could understand what was told. 
+
+
+Things to be fixed:
+* borders header and footer
+* fotomatic image
+* links in header
+* responsiveniss
 
 ### Make it responsive (start 21/6/2021)
 
