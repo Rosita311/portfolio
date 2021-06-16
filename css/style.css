@@ -311,7 +311,7 @@ footer p {
 
 /*  Responsive layout max width: 450px*/
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 388px) {
     
     /* Header */
     header {
@@ -367,7 +367,7 @@ footer p {
     .project {
         flex-wrap: wrap;
         width: 100%;
-        height: fit-content;
+        height: auto;
     }
 
     .project-image {
