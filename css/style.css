@@ -119,6 +119,7 @@ button a:hover, button i:hover {
 #about, #contact {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     margin: 100px 0;
 }
 
@@ -212,7 +213,7 @@ button a:hover, button i:hover {
 #skills li {
     margin: 0 15px;
     color: var(--accent-2);
-    font-size: 30px;
+    font-size: 40px;
 }
 
 #skills li:hover {
@@ -233,7 +234,7 @@ button a:hover, button i:hover {
 }
 
 #contact i {
-    font-size: 30px;
+    font-size: 40px;
     color: var(--accent-2);
 }
 
@@ -255,4 +256,61 @@ footer p {
 #contact-footer {
     position: absolute;
     bottom: 0;
+}
+
+/* Responsive layout max width: 780px */
+
+@media screen and (max-width: 780px) {
+   header, main {
+       margin: 0 20px 0 20px;
+   }
+    /* header */
+    nav {
+        margin-right: 20px;
+    }
+
+    nav li {
+        font-size: 20px;
+    }
+
+    /* About Section*/
+    .intro {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    #about img {
+        width: 100%;
+    }
+
+    /* Projects Section */
+    #projects {
+        text-align: center;
+    }
+
+    .column {
+        align-items: center;
+    }
+
+    /* Contact Page */
+    #contact {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    #contact ul {
+        justify-content: center;
+        margin: 50px 0;
+    }
+
+    #contact img {
+        width: 100%;
+    }
+}
+
+/*  Responsive layout max width: 450px*/
+
+@media screen and (max-width: 450px) {
+    
 }
