@@ -93,9 +93,8 @@ I also finished the contactpage. I'll add responsiveness later.
 I add the darkmode. with CSS variables and Javascript. I used this [tutorial](https://www.youtube.com/watch?v=RiWxhm5ZdFM&t=34s) for some explanation, but I really could understand what was told. 
 Adding the darkmode was pretty easy. So I added a counter too! That wasn't easy even with the example portfolio from Codecodemy. I was confused with the starting date. But I think it's fixed now. 
 
-### Make it responsive (start 21/6/2021)
+### Make it responsive (start 16/6/2021)
 Things to fix:
-* 2 columns on mobile/desktop
 * Counter in Firefox
 
 ### Publish to the web (start 28/6/2021)

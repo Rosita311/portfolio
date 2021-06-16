@@ -5,7 +5,7 @@ document.querySelector('.toggle-btn').addEventListener('click', () => {
 
 // Day counter
 const dayCounter = document.getElementById('counter');
-const start = '03-12-2020';
+const start = '2020-03-12';
 const startDate = new Date(start);
 const numFormat = new Intl.NumberFormat("en-US");
 const oneDay = 1000 * 60 * 60 * 24;
