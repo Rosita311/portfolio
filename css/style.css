@@ -267,7 +267,7 @@ footer p {
 
 /* Responsive layout max width: 800px */
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 780px) {
    header, main {
        margin: 0 20px 0 20px;
    }
@@ -296,6 +296,7 @@ footer p {
     }
 
     .column {
+        flex: 0 1 100%;
         align-items: center;
     }
 
@@ -360,7 +361,7 @@ footer p {
         margin: 50px 0;
     }
 
-    /* Project Sction */
+    /* Project Section */
 
     #projects {
         margin: 0;
