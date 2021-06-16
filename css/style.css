@@ -154,7 +154,14 @@ button a:hover, button i:hover {
 #projects p {
     margin-left: 10px;
 }
-.row {
+
+  .container { 
+    display: flex;
+    flex-wrap: wrap;
+
+} 
+
+  .row { 
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -166,11 +173,11 @@ button a:hover, button i:hover {
     flex-direction: column;
     flex-basis: 100%;  
     flex: 1;
-  }
+  } 
 
 .project {
     display: inline-flex; 
-    width: 578px;
+    max-width: 578px;
     height: 250px;
     margin: 10px;
     box-shadow: 6px 8px 6px -6px rgba(0, 0, 0, 0.4);
@@ -362,7 +369,9 @@ footer p {
     #projects p {
         margin: 0;
     }
-
+    .column {
+        flex: 1 0 100%;
+    }
 
     .project {
         flex-wrap: wrap;

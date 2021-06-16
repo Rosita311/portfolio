@@ -95,8 +95,8 @@ Adding the darkmode was pretty easy. So I added a counter too! That wasn't easy 
 
 ### Make it responsive (start 21/6/2021)
 Things to fix:
-* Make responsive
-* Check accessibility 
+* 2 columns on mobile/desktop
+* Counter in Firefox
 
 ### Publish to the web (start 28/6/2021)
 
