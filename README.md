@@ -94,6 +94,9 @@ I add the darkmode. with CSS variables and Javascript. I used this [tutorial](ht
 Adding the darkmode was pretty easy. So I added a counter too! That wasn't easy even with the example portfolio from Codecodemy. I was confused with the starting date. But I think it's fixed now. 
 
 ### Make it responsive (start 21/6/2021)
+Things to fix:
+* Make responsive
+* Check accessibility 
 
 ### Publish to the web (start 28/6/2021)
 

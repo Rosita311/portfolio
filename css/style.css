@@ -245,9 +245,14 @@ button a:hover, button i:hover {
 footer {
     border-top: 1px solid var(--accent-1);
     margin-top: 100px;
-    bottom: 0;
+    width: 100%;
 }
 
 footer p {
     text-align: center;
+}
+
+#contact-footer {
+    position: absolute;
+    bottom: 0;
 }
