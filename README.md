@@ -94,9 +94,13 @@ I add the darkmode. with CSS variables and Javascript. I used this [tutorial](ht
 Adding the darkmode was pretty easy. So I added a counter too! That wasn't easy even with the example portfolio from Codecodemy. I was confused with the starting date. But I think it's fixed now. 
 
 ### Make it responsive (start 16/6/2021)
-Things to fix:
-* Counter in Firefox
+Today I made my website responsive. That wasn't that hard most of the time. 
+* I only had a hard time implementing Flex (Flex grow, Flex shrink and Flex basis), I added another flex selector to .column to adjust the columns on mobile.
+* I also used fit-content to adjust the height of the projectblocks, since the layout has changed for mobile. I replaced it with auto. Fit-content isn't supported in Firefox.
+* The counter didn't work in Firefox, I changed the date notation from '03-12-2020' to '2020-03-12'.
+* I fixed the footer to the bottom of the contactpage. 
+* And I also made the website accessible for people with visual impairments. Accessibility is a very important topic to me. 
 
-### Publish to the web (start 28/6/2021)
-
-### Next Steps (start 28/6/2021)
+### Publish to the web (start 16/6/2021)
+I published the website to GitHub pages a few days ago. So I could get help.
+A big thanks to everyone who has helped me! 
