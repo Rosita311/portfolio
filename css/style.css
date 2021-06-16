@@ -60,7 +60,7 @@ a:hover {
 
 header {
     display: flex;
-    height: 60px;
+    min-height: 60px;
     width: 100%;
     justify-content: space-between;
     align-items: center;
@@ -264,7 +264,7 @@ footer p {
    header, main {
        margin: 0 20px 0 20px;
    }
-    /* header */
+    /* Header */
     nav {
         margin-right: 20px;
     }
@@ -284,7 +284,7 @@ footer p {
     }
 
     /* Projects Section */
-    #projects {
+    #projects p {
         text-align: center;
     }
 
@@ -313,4 +313,93 @@ footer p {
 
 @media screen and (max-width: 450px) {
     
+    /* Header */
+    header {
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 0;
+    }
+
+    header h1 {
+        text-align: center;
+        margin: 0;
+        width: 100%;
+    }
+
+    nav {
+        width: 100%;
+        margin: 0;
+    }
+
+    nav ul {
+        margin: 10px;
+        padding: 0;
+    }
+
+    nav li {
+        justify-content: center;
+        margin: 7px;
+        font-size: 18px;
+    }
+
+    /* About Section */
+
+    #about {
+        margin: 0;
+        flex-wrap: wrap-reverse;
+    }
+
+    #about img {
+        margin: 50px 0;
+    }
+
+    /* Project Sction */
+
+    #projects {
+        margin: 0;
+    }
+
+    #projects p {
+        margin: 0;
+    }
+
+
+    .project {
+        flex-wrap: wrap;
+        width: 100%;
+        height: fit-content;
+    }
+
+    .project-image {
+        width: 100%;
+    }
+
+    .project-info {
+        width: 100%;
+    }
+
+    /* Skills Section */
+
+    #skills {
+        margin: 50px 0;
+    }
+
+    #skills ul {
+        flex-wrap: wrap;
+    }
+
+    #skills li {
+        margin: 0 10px;
+    }
+
+    /* Contact page */
+
+    #contact {
+        margin: 20px 0;
+        text-align: left;
+    }
+
+    #contact-footer {
+        position: relative;
+    }
 }
