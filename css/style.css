@@ -265,7 +265,7 @@ footer p {
     bottom: 0;
 }
 
-/* Responsive layout max width: 800px */
+/* Responsive layout max width: 780px */
 
 @media screen and (max-width: 780px) {
    header, main {
@@ -298,6 +298,13 @@ footer p {
     .column {
         flex: 0 1 100%;
         align-items: center;
+    }
+
+    /* Skills Section */
+
+    #skills ul {
+        padding: 0;
+        justify-content: center;
     }
 
     /* Contact Page */
