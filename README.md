@@ -42,7 +42,7 @@ For the layout I'll use the same layout as Codecademy's sample project for now.
 * Accent color 1 darkmode: #FFD9DA: Pale Pink
 * Accent color 2 darkmode: #30343F: Gunmetal
 
-![Color Palette](images/colorpallette.jpg)
+![Color Palette](images/colors.jpg)
 
 ### Fontsizes:
 * Title(H1): 50px

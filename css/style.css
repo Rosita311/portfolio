@@ -35,6 +35,7 @@ body.darkmode {
 * {
     scroll-behavior: smooth;
 }
+
 header, main {
     max-width: 1200px; 
     margin: 0 auto;
@@ -437,7 +438,7 @@ footer p {
 
 }
 
-/* Responsive layout max width: 1200px */
+/* Responsive layout max width: 320px */
 
 @media screen and (max-width: 320px) {
 
