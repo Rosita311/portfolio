@@ -14,7 +14,8 @@ body {
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
     background-color: var(--background-color);
-    color: var(--fontcolor); 
+    color: var(--fontcolor);
+
 }
 
 /* Darkmode */
@@ -31,6 +32,9 @@ body.darkmode {
     transition: var(--transition-delay);
 }
 
+* {
+    scroll-behavior: smooth;
+}
 header, main {
     max-width: 1200px; 
     margin: 0 auto;
@@ -60,6 +64,7 @@ a:hover {
 
 header {
     display: flex;
+    flex-wrap: wrap;
     min-height: 60px;
     width: 100%;
     justify-content: space-between;
@@ -235,9 +240,10 @@ button a:hover, button i:hover {
     padding-left: 0;
 }
 
-#contact ul li {
+#contact li {
     list-style: none;
     margin-right: 20px;
+    font-size: 40px;
 }
 
 #contact i {
@@ -281,16 +287,22 @@ footer p {
     }
 
     /* About Section*/
+
+    #about {
+        justify-content: center;
+    }
+
     .intro {
         width: 100%;
         margin-bottom: 50px;
     }
 
     #about img {
-        width: 100%;
+        width: 75%; 
     }
 
     /* Projects Section */
+
     #projects p {
         text-align: center;
     }
@@ -320,7 +332,11 @@ footer p {
     }
 
     #contact img {
-        width: 100%;
+        width: 75%;
+    }
+
+    #contact-footer {
+        position: relative;
     }
 }
 
@@ -348,6 +364,7 @@ footer p {
 
     nav ul {
         justify-content: center;
+        flex-wrap: wrap;
         margin: 10px;
         padding: 0;
     }
@@ -418,20 +435,21 @@ footer p {
         text-align: left;
     }
 
-    #contact-footer {
-        position: relative;
-    }
 }
 
 /* Responsive layout max width: 1200px */
 
-@media screen and (max-width: 340px) {
+@media screen and (max-width: 320px) {
 
     /* Header */
+
     header h1 {
         font-size: 30px;
     }
-    nav ul {
+
+    /* Contact page */
+
+    #contact ul {
         flex-wrap: wrap;
     }
 }
