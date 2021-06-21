@@ -149,13 +149,13 @@ button a:hover, button i:hover {
     object-fit: cover;
 }
 
-#link {
+.link {
     color: var(--fontcolor);
     text-decoration: underline;
     font-weight: normal;
 }
 
-#link:hover {
+.link:hover {
     color: var(--nav-hover);
 }
 
