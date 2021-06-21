@@ -61,17 +61,6 @@ a:hover {
     color: var(--accent-1);
 }
 
-#link {
-    color: var(--fontcolor);
-    text-decoration: underline;
-    font-weight: normal;
-}
-
-#link:hover {
-    color: var(--nav-hover);
-    
-}
-
 /* Header */
 
 header {
@@ -157,6 +146,17 @@ button a:hover, button i:hover {
     width: 33%;
     margin-right: 10px;
     box-shadow: 6px 8px 6px -6px rgba(0, 0, 0, 0.4);
+    object-fit: cover;
+}
+
+#link {
+    color: var(--fontcolor);
+    text-decoration: underline;
+    font-weight: normal;
+}
+
+#link:hover {
+    color: var(--nav-hover);
 }
 
 /* Project section */
