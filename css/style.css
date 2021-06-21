@@ -61,6 +61,17 @@ a:hover {
     color: var(--accent-1);
 }
 
+#link {
+    color: var(--fontcolor);
+    text-decoration: underline;
+    font-weight: normal;
+}
+
+#link:hover {
+    color: var(--accent-2);
+    
+}
+
 /* Header */
 
 header {
