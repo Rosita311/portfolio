@@ -41,13 +41,17 @@ header, main {
     margin: 0 auto;
 }
 
-h1, h2, h3 {
+h1 {
     font-family: 'Architects Daughter', cursive; 
     color: var(--fontcolor);
 }
 
 h1 {
     font-size: 3rem;
+}
+
+h2, h3 {
+    font-family: 'Lora', serif;
 }
 
 h2 {
