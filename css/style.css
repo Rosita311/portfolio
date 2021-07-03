@@ -221,7 +221,7 @@ button a:hover, button i:hover {
 .project-info {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     line-height: 1.5;
     background-color: var(--accent-3);
     font-size: 15px;
